@@ -26,17 +26,22 @@ const displayAverageSalary = function(employeesArray) {
     const averageSalary = totalSalary / employeesArray.length;
     // Created a console log to log average salary.
     console.log(`Average Salary: $${averageSalary}`);
+    
 
 
 };
 
 
 
-// Select a random employee
+// Created a function to select a random employee.
 const getRandomEmployee = function(employeesArray) {
 
-}
-
+  const randomIndex = Math.floor(Math.random() * employeesArray.length);
+  
+  const randomEmployee = employeesArray[randomIndex];
+// Log a random employee as winner in console.
+  console.log(`Congratulations to ${randomEmployee.firstName} ${randomEmployee.lastName} our random drawing winner!`);
+};
 /*
   ====================
   STARTER CODE
