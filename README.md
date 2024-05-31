@@ -15,7 +15,7 @@ THEN I created a function to select a random employee.
 THEN I created a console log to log a random employee as winner in console.
 ```
 ## Deployed Website Screenshot
-![Deployed Website](assets/Deployed-Payroll-Tracker.png)
+![Deployed Website](Assets/Deployed-Payroll-Tracker.png)
 
 ## Project URL
 https://demichele-c.github.io/Employee-Payroll-Tracker-/
